@@ -56,10 +56,10 @@ component_str = `
     <div class="ft_btn_box">
         <p>追蹤我們</p>
         <div class="follow">
-            <a href=""><img src="./img/fb_new.svg" alt=""></a>
-            <a href=""><img src="./img/ig_new.svg" alt=""></a>
-            <a href=""><img src="./img/youtube_new.svg" alt=""></a>
-            <a href=""><img src="./img/line_new.svg" alt=""></a>
+            <a href="https://www.facebook.com/pchome24h/" target="_blank"><img src="./img/fb_new.svg" alt=""></a>
+            <a href="https://www.instagram.com/pchome24h/" target="_blank"><img src="./img/ig_new.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCb2aGEzl5Ki5juwPolnC-PA" target="_blank"><img src="./img/youtube_new.svg" alt=""></a>
+            <a href="https://page.line.me/pchome24h?openQrModal=true" target="_blank"><img src="./img/line_new.svg" alt=""></a>
             
         </div>
     </div>
