@@ -40,7 +40,7 @@ str = `
     </div>
 
 `
-header.innerHTML = str;
+// header.innerHTML = str;
 
 let component_footer = document.getElementById('component_footer');
 let component_str = '';
