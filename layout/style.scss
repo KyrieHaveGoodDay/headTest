@@ -3,13 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+#header{
+    
+}
+.header_mb{
+    display: none;
+    @media screen and(max-width:1100px){
+        display: block;
+        
+    }
+    .header_mb_img{
+        @media screen and(max-width:1100px){
+            background-image: url(../img/24HLOGO.png);
+            background-size: 100%;
+            width: 150px;
+            height: 20px;
+            margin: 5px auto;
+            
+        }
+      
+        
+    }
+}
 .header_main {
+    
     display: flex;
     // max-width: 1060px;
     // margin: 0 auto;
     justify-content: center;
     align-items: flex-end;
     // height: 45px;
+    @media screen and(max-width:1100px){
+        display: none;
+    }
     .header1 {
         background-image: url(../img/header_01.png);
         width: 232px;
@@ -38,6 +64,9 @@
             color: #aaa;
             margin: 0 5px;
         }
+        a{
+            text-decoration: none;
+        }
     }
 
     .head_text1 {
@@ -51,10 +80,28 @@
     }
     .head_text2 {
         // color: red;
+        position: relative;
+        &:hover{
+            &::after{
+                display: block;
+            }
+        }
         &::before {
             content: "APP下載";
             color: red;
         }
+        &::after{
+            content: '';
+            width: 200px;
+            height: 200px;
+            background-image: url(../img/QRCode.png);
+            background-size: 100%;
+            position: absolute;
+            left: -100px;
+            bottom: -200px;
+            display: none;
+        }
+        
     }
     .head_text3 {
         &::before {
@@ -67,31 +114,35 @@
     }
     .img_main {
         display: flex;
-        div{
+        div {
             margin: 0 3px;
+            width: 24px;
+            height: 24px;
         }
+
+        text-decoration: none;
         .img1 {
-            width: 32px;
-            height: 32px;
+            // width: 32px;
+            // height: 32px;
             background-image: url(../img/fb_new.svg);
             background-size: 100%;
         }
+
         .img2 {
-            width: 32px;
-            height: 32px;
+            // width: 32px;
+            // height: 32px;
             background-image: url(../img/ig_new.svg);
             background-size: 100%;
         }
-        .img3
-         {
-            width: 32px;
-            height: 32px;
+        .img3 {
+            // width: 32px;
+            // height: 32px;
             background-image: url(../img/youtube_new.svg);
             background-size: 100%;
         }
         .img4 {
-            width: 32px;
-            height: 32px;
+            // width: 32px;
+            // height: 32px;
             background-image: url(../img/line_new.svg);
             background-size: 100%;
         }

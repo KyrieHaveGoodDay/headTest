@@ -6,6 +6,26 @@
           box-sizing: border-box;
 }
 
+.header_mb {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .header_mb {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header_mb .header_mb_img {
+    background-image: url(../img/24HLOGO.png);
+    background-size: 100%;
+    width: 150px;
+    height: 20px;
+    margin: 5px auto;
+  }
+}
+
 .header_main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,6 +36,12 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media screen and (max-width: 1100px) {
+  .header_main {
+    display: none;
+  }
 }
 
 .header_main .header1 {
@@ -51,6 +77,10 @@
   margin: 0 5px;
 }
 
+.header_main .text_main a {
+  text-decoration: none;
+}
+
 .header_main .head_text1::before {
   content: "例外說明";
 }
@@ -60,9 +90,29 @@
   margin-left: 10px;
 }
 
+.header_main .head_text2 {
+  position: relative;
+}
+
+.header_main .head_text2:hover::after {
+  display: block;
+}
+
 .header_main .head_text2::before {
   content: "APP下載";
   color: red;
+}
+
+.header_main .head_text2::after {
+  content: '';
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/QRCode.png);
+  background-size: 100%;
+  position: absolute;
+  left: -100px;
+  bottom: -200px;
+  display: none;
 }
 
 .header_main .head_text3::before {
@@ -78,36 +128,31 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-decoration: none;
 }
 
 .header_main .img_main div {
   margin: 0 3px;
+  width: 24px;
+  height: 24px;
 }
 
 .header_main .img_main .img1 {
-  width: 32px;
-  height: 32px;
   background-image: url(../img/fb_new.svg);
   background-size: 100%;
 }
 
 .header_main .img_main .img2 {
-  width: 32px;
-  height: 32px;
   background-image: url(../img/ig_new.svg);
   background-size: 100%;
 }
 
 .header_main .img_main .img3 {
-  width: 32px;
-  height: 32px;
   background-image: url(../img/youtube_new.svg);
   background-size: 100%;
 }
 
 .header_main .img_main .img4 {
-  width: 32px;
-  height: 32px;
   background-image: url(../img/line_new.svg);
   background-size: 100%;
 }
