@@ -7,6 +7,9 @@ https://kyriehavegoodday.github.io/headTest/
 # 使用方式
 ## 連結CDN
 ```
+<link rel="stylesheet" href="https://kyriehavegoodday.github.io/headTest/css/style.css">
+```
+```
 <script src="https://kyriehavegoodday.github.io/headTest/header.js"></script>
 
 ```
