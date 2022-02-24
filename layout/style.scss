@@ -7,10 +7,11 @@
 
 .header_main {
     max-width: 1060px;
+    height: 50px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 67% 18% 13%;
-    // border: 1px solid green;
+    border: 1px solid green;
     @media screen and(max-width:1060px) {
         display: none;
     }
@@ -66,6 +67,7 @@
                     bottom: -200px;
                     left: 0;
                     display: none;
+                    z-index: 999;
                 }
             }
         }
@@ -74,8 +76,11 @@
         display: flex;
         // justify-content: space-around;
         align-items: flex-end;
+        padding-bottom: 4px;
         a {
             margin: 0 3px;
+            width: 24px;
+            height: 24px;
             img {
                 width: 24px;
                 height: 24px;

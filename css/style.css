@@ -85,11 +85,13 @@ footer .ft_btn .ft_btn_box .follow a img {
 
 .header_main {
   max-width: 1060px;
+  height: 50px;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 67% 18% 13%;
       grid-template-columns: 67% 18% 13%;
+  border: 1px solid green;
 }
 
 @media screen and (max-width: 1060px) {
@@ -162,6 +164,7 @@ footer .ft_btn .ft_btn_box .follow a img {
   bottom: -200px;
   left: 0;
   display: none;
+  z-index: 999;
 }
 
 .header_main .header_img {
@@ -171,10 +174,13 @@ footer .ft_btn .ft_btn_box .follow a img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  padding-bottom: 4px;
 }
 
 .header_main .header_img a {
   margin: 0 3px;
+  width: 24px;
+  height: 24px;
 }
 
 .header_main .header_img a img {
