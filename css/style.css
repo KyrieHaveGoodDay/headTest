@@ -91,7 +91,6 @@ footer .ft_btn .ft_btn_box .follow a img {
   display: grid;
   -ms-grid-columns: 67% 18% 13%;
       grid-template-columns: 67% 18% 13%;
-  border: 1px solid green;
 }
 
 @media screen and (max-width: 1060px) {
