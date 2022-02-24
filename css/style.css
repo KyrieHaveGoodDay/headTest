@@ -29,6 +29,7 @@ footer .ft_top .ft_top_left {
 footer .ft_top .ft_top_right p {
   font-size: 12px;
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 footer .ft_btn {
