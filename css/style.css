@@ -85,7 +85,7 @@ footer .ft_btn .ft_btn_box .follow a img {
 
 .header_main {
   max-width: 1060px;
-  height: 50px;
+  height: 40px;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
@@ -103,6 +103,7 @@ footer .ft_btn .ft_btn_box .follow a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 40px;
 }
 
 .header_main .header_left .header1 {
@@ -173,7 +174,7 @@ footer .ft_btn .ft_btn_box .follow a img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding-bottom: 4px;
+  padding-bottom: 6px;
 }
 
 .header_main .header_img a {
