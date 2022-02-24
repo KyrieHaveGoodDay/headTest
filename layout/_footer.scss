@@ -44,6 +44,9 @@ footer{
                 display: none;
                 
             }
+            p{
+                margin-bottom: 0;
+            }
             .follow{
                 display: flex;
                 a{
@@ -55,6 +58,9 @@ footer{
                     }
                 }
             }
+        }
+        p{
+            margin-bottom: 0;
         }
     }
 }

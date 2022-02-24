@@ -60,6 +60,10 @@ footer .ft_btn .ft_btn_box {
   }
 }
 
+footer .ft_btn .ft_btn_box p {
+  margin-bottom: 0;
+}
+
 footer .ft_btn .ft_btn_box .follow {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,6 +79,10 @@ footer .ft_btn .ft_btn_box .follow a img {
   height: 32px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer .ft_btn p {
+  margin-bottom: 0;
 }
 
 body,
