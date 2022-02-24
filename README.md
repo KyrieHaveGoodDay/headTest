@@ -15,6 +15,6 @@ https://kyriehavegoodday.github.io/headTest/
 ```
 ## 在html引入
 ```
-<div id="header" class="header"></div>
+<div id="header"></div>
 <footer id="component_footer"></footer>
 ```
